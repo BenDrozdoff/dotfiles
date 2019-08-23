@@ -1,0 +1,14 @@
+[color]
+        ui = true
+[core]
+        excludesfile = [root_path_here]/.gitignore_global
+[user]
+        name = [name here]
+        email = [email here]
+[alias]
+        co = checkout
+        sla = log --oneline --decorate --graph --all
+        frm = !git checkout master && git fetch origin -p && git rebase origin/master && git checkout -
+        oops = !git add -u && git commit --amend --no-edit && git push origin $(git rev-parse --abbrev-ref HEAD) --force
+[push]
+        default = current
