@@ -1,0 +1,20 @@
+{
+	"Do block": {
+		"prefix": "dob",
+		"body": [
+			"do",
+			"\t$0",
+			"end"
+		],
+		"description": "Do block"
+	},
+	"Do block with params": {
+		"prefix": "dobwp",
+		"body": [
+			"do |${1:param}|",
+			"\t$0",
+			"end"
+		],
+		"description": "Do block with params"
+	}
+}
