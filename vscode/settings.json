@@ -1,1 +1,18 @@
-
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Default Light+",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "terminal.integrated.macOptionIsMeta": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": true,
+}
