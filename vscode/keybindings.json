@@ -8,4 +8,9 @@
     "key": "ctrl+`",          
     "command": "workbench.action.terminal.focus", "when": "!terminalFocus"
   },
+  {
+    "key": "ctrl+r",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
+  },
 ]
